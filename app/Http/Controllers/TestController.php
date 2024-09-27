@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    public function get_all(){
+    public function getAll(){
 
         $test = new Test();
         return view('messages', [

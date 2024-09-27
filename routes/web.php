@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test/all', 'App\Http\Controllers\TestController@get_all')->name('get_all');
+Route::get('/test/all', 'App\Http\Controllers\TestController@getAll')->name('getAll');
